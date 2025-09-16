@@ -1,0 +1,46 @@
+<footer>
+  <!-- Begin Footer Row -->
+  <div class="container-fluid blinn-footer-container">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>Link one</li>
+            <li>Link two</li>
+            <li>Link three</li>
+            <li>Link four</li>
+          </ul>
+        </div>
+        <div class="col col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <h3>Legal Information</h3>
+          <ul>
+            <li>Link one</li>
+            <li>Link two</li>
+            <li>Link three</li>
+            <li>Link four</li>
+          </ul>
+        </div>
+        <div class="col col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <h3>Sales</h3>
+          <ul>
+            <li>Link one</li>
+            <li>Link two</li>
+            <li>Link three</li>
+            <li>Link four</li>
+          </ul>
+        </div>
+        <div class="col col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <h3>Resources</h3>
+          <ul>
+            <li>Link one</li>
+            <li>Link two</li>
+            <li>Link three</li>
+            <li>Link four</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer Row -->
+</footer>
