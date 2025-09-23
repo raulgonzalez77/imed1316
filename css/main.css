@@ -1,0 +1,47 @@
+h1, h2 {
+    color: var(--primaryColor) !important;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.blinn-footer-container {
+    background-color: var(--secondaryColor) !important;
+    padding: 40px;
+    color: #ffffff;
+}
+
+
+blockquote {
+   font-family: Georgia, serif; 
+   font-size: 18px;
+   font-style: italic;
+   margin: 0.25em 0px;
+   padding: 0.35em 40px;
+   line-height: 1.45;
+   position: relative;
+   color: var(--accentColor) !important;
+}
+
+blockquote::before {
+    display: block;
+    padding-left: 10px;
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: var(--accentColor) !important;
+    content: "\201c";
+}
+
+blockquote cite {
+    color: var(--accentColor) !important;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite::before {
+    content: "\2014 \2009";
+}
