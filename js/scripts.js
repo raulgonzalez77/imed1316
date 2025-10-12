@@ -1,1 +1,1 @@
-document.getElementById('my-vid').defaultPlayRate = 1;
+document.getElementById('my-vid').defaultPlayRate = 0.3;
