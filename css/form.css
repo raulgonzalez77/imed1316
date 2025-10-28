@@ -1,0 +1,50 @@
+@import 'global.css';
+@import 'main.css';
+
+.web-form {
+    width: 75%;
+    position: relative;
+    margin: auto;
+    background-color: #dddeee;
+    padding: 30px;
+    margin-bottom: 300px;
+}
+
+.web-form div {
+    margin-top: 10px;
+}
+
+#age {
+    width: 120px;
+}
+
+#custom {
+    margin-top: 5px;
+    display: none;
+}
+
+#terms-and-conditions {
+    width: 40px !important;
+    height: 20px !important;
+}
+
+#about-you {
+    width: 100%;
+    height: 200px;
+}
+
+.radio, .checkbox {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.submit {
+    border-color: var(--secondaryColor) !important;
+    background-color:  #ffffff;
+    color: var(--secondaryColor) !important;
+}
+
+.submit:hover {
+    background-color:  #ffffff;
+    color: #000000;
+}
