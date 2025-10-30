@@ -42,7 +42,7 @@ p {
 
 .paragraph-one-img {
     position: relative;
-    float: right;
+    /*float: right;*/
     max-width: 350px;
     width: 100%;
     height: auto;
