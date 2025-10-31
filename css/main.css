@@ -49,3 +49,13 @@ blockquote cite::before {
 footer a {
     color: #ffffff;
 }
+
+footer a:hover {
+  color: #f0c93d; /* warm highlight color */
+  text-decoration: underline;
+}
+
+footer a i:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
