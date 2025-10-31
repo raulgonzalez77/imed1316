@@ -6,7 +6,7 @@ h1, h2 {
     background-color: #ffffff !important;
 }
 
-.blinn-footer-container a {
+.blinn-footer-container {
     background-color: var(--secondaryColor) !important;
     padding: 40px;
     color: #ffffff;
@@ -44,4 +44,8 @@ blockquote cite {
 
 blockquote cite::before {
     content: "\2014 \2009";
+}
+
+footer a {
+    color: #ffffff;
 }
