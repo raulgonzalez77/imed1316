@@ -2,7 +2,7 @@
 
 ScrollReveal().reveal('.headline');
 
-
+/*
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -18,4 +18,24 @@ const elementsToAnimate = document.querySelectorAll('.animate-on-scroll'); // Ad
 
 elementsToAnimate.forEach((element) => {
   observer.observe(element);
+});
+*/
+
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const animation = entry.target.dataset.animate || 'animate__fadeIn'; 
+      // fallback animation if none provided
+
+      entry.target.classList.add('animate__animated', animation);
+
+      observer.unobserve(entry.target); // Runs only once
+    }
+  });
+});
+
+// Observe all elements with class
+document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+  observer.observe(el);
 });
