@@ -85,6 +85,8 @@ p {
 
 
 /*webaim contrast errors*/
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev, .carousel-control-next {
     background-color: #000000 !important;
+    width: 100px;
+    height: 100px;
 }
