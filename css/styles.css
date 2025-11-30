@@ -93,3 +93,8 @@ p {
     width: 100px;
     height: 100px;
 }
+
+.top-intro {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
